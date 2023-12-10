@@ -332,8 +332,8 @@ body {
 }
 
 .header._header-scroll {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -754,6 +754,10 @@ body {
   display: -ms-grid;
   display: grid;
   gap: 1.5rem;
+}
+
+.spollers-pathway__item {
+  cursor: pointer;
 }
 
 .spollers-pathway__title {
